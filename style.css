@@ -1,0 +1,72 @@
+body {
+    background-color: black;
+    background-image: url(https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/f53a8b3b-1198-4ac5-9c5b-ac8dd2dd85da/d8stlpi-46378c79-7e4a-4c1b-881f-99b4f4ad7dc7.png/v1/fill/w_720,h_400,strp/sonic_unleashed__miles_handheld__loading_screen__by_sonicx720_d8stlpi-fullview.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9NDAwIiwicGF0aCI6IlwvZlwvZjUzYThiM2ItMTE5OC00YWM1LTljNWItYWM4ZGQyZGQ4NWRhXC9kOHN0bHBpLTQ2Mzc4Yzc5LTdlNGEtNGMxYi04ODFmLTk5YjRmNGFkN2RjNy5wbmciLCJ3aWR0aCI6Ijw9NzIwIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmltYWdlLm9wZXJhdGlvbnMiXX0.Uih6zPkAF-YKCiYMIcMPJcUhGL9dM6sfQ0tnJkDezmQ);
+    background-size: 100%;
+    background-position-y: 200px;
+    color: white;
+    padding-bottom: 100px;
+    margin: 0px;
+    font-family: "Vina Sans", sans-serif;
+    margin-bottom: 100px;
+}
+
+header {
+    background-image: linear-gradient(rgba(0, 0, 255, 0.5), rgba(255, 255, 0, 0.5)),
+        url("https://m.media-amazon.com/images/S/stores-image-uploads-na-prod/8/AmazonStores/ATVPDKIKX0DER/d1d2e67bc1ce69570f3d343d1efd5ef4.w3000.h600._CR0%2C0%2C3000%2C600_SX3000_.jpg");
+    background-size: 92%;
+    background-position-y: 20%;
+    border-bottom: solid 10px rgb(146, 17, 0);
+    padding: 100px;
+    font-size: 32px;
+    color: white;
+}
+
+.chamada {
+    background: rgb(3, 19, 49);
+    margin: 15%;
+    margin-left: 14%;
+    margin-right: 14%;
+    padding-bottom: 3%;
+    padding-top: 3%;
+    display: flex;
+    justify-content: center;
+}
+
+.texto {
+    margin-right: 5%;
+}
+
+h1 {
+    font-size: 50px;
+    color: green;
+}
+
+p {
+    font-size: 20px;
+}
+
+.categoria-videos {
+    display: flex;
+    overflow-x: auto;
+    gap: 100px;
+}
+
+.categoria-videos img {
+    opacity: 0.1;
+    height: 200px;
+}
+
+.categoria-videos img:hover {
+    opacity: 1.0;
+    border: 5px solid green;
+
+}
+
+.categorias {
+    padding: 300px;
+}
+
+.categorias h2 {
+    font-size: 42px;
+    color: green;
+}
